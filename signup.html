@@ -28,10 +28,10 @@
 </head>
 
 <body class="bg-white font-Poppins">
-    <div class="outer flex h-screen main">
+    <div class="outer flex align-middle h-screen w-screen main">
 
         <div class="m-auto">
-            <div class="bg-gray-200 text-center px-24 py-10 border-2 border-blue-250 rounded-xl">
+            <div class="bg-gray-200 text-center px-7 md:px-24 py-10 border-2 border-blue-250 rounded-xl">
                 <h1 class="text-2xl font-bold my-10">Sign Up with <a href="/index.html"><span class="text-blue-250">GenZ
                             Blog</span></a></h1>
                 <div class="input-form my-8 mx-auto w-full">
@@ -46,10 +46,12 @@
                         </span>
                         <input
                             class="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
-                            placeholder="Enter your username:" type="text" name="search" />
+                            placeholder="Enter your username:" type="text" name="user" />
                     </label>
                 </div>
                 <div class="input-form my-8 mx-auto w-full">
+
+
                     <label class="relative block">
                         <span class="absolute inset-y-0 left-0 flex items-center pl-2">
                             <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,7 +66,7 @@
                             placeholder="Enter your email:" type="email" name="email" />
                     </label>
                 </div>
-                <div class="input-form my-8 mx-auto w-full">
+                <div class="input-form mb-2 md:my-8 mx-auto w-full">
                     <label class="relative block">
                         <span class="absolute inset-y-0 left-0 flex items-center pl-2">
                             <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -79,14 +81,14 @@
                             placeholder="Enter your password:" type="password" name="pass" />
                     </label>
                 </div>
-                <div class="flex items-center justify-between align-middle -my-1">
-                    <div class="remember">
-                        <input type="checkbox" name="" id="">
-                        <label for="justify-start">Remember Me</label>
+                <div class="remember-forgot flex items-center justify-between align-middle -my-1">
+                    <div class="remember hidden md:block flex items-center align-middle ">
+                        <input class="mr-1" type="checkbox" name="" id="">
+                        <label class="text-sm md:text-base" for="">Remember Me</label>
                     </div>
                 </div>
-                <div class="signup">
-                    <button class="px-40 py-2 rounded-xl bg-blue-250 my-8 text-white font-semibold">Sign Up</button>
+                <div class="login">
+                    <button class="px-28 md:px-40 py-2 rounded-xl bg-blue-250 my-8 text-white font-semibold">Sign Up</button>
                 </div>
                 <div class="flex items-center justify-center align-middle -mt-3 mb-8">
                     <div class="forgot">

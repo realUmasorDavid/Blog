@@ -28,10 +28,10 @@
 </head>
 
 <body class="bg-white font-Poppins">
-    <div class="outer flex align-middle h-screen main">
+    <div class="outer flex align-middle h-screen w-screen main">
 
         <div class="m-auto">
-            <div class="bg-gray-200 text-center px-24 py-10 border-2 border-blue-250 rounded-xl">
+            <div class="bg-gray-200 text-center px-7 md:px-24 py-10 border-2 border-blue-250 rounded-xl">
                 <h1 class="text-2xl font-bold my-10">Login to <a href="/index.html"><span class="text-blue-250">GenZ
                             Blog</span></a></h1>
                 <div class="input-form my-8 mx-auto w-full">
@@ -64,17 +64,17 @@
                             placeholder="Enter your password:" type="password" name="pass" />
                     </label>
                 </div>
-                <div class="flex items-center justify-between align-middle -my-1">
-                    <div class="remember">
-                        <input type="checkbox" name="" id="">
-                        <label for="justify-start">Remember Me</label>
+                <div class="remember-forgot flex items-center justify-between align-middle -my-1">
+                    <div class="remember hidden md:block flex items-center align-middle ">
+                        <input class="mr-1" type="checkbox" name="" id="">
+                        <label class="text-sm md:text-base" for="">Remember Me</label>
                     </div>
                     <div class="forgot">
-                        <label class="text-blue-250" for="justify-start">Forgot Password?</label>
+                        <label class="text-blue-250 text-sm md:text-base" for="">Forgot Password?</label>
                     </div>
                 </div>
                 <div class="signup">
-                    <button class="px-40 py-2 rounded-xl bg-blue-250 my-8 text-white font-semibold">Login</button>
+                    <button class="px-28 md:px-40 py-2 rounded-xl bg-blue-250 my-8 text-white font-semibold">Login</button>
                 </div>
                 <div class="flex items-center justify-center align-middle -mt-3 mb-8">
                     <div class="forgot">
