@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <script
+        src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
     <script src="https://kit.fontawesome.com/5c85fd2f27.js" crossorigin="anonymous"></script>
     <script>
         tailwind.config = {
@@ -28,12 +29,14 @@
 
 
 <body class="font-Poppins">
-    <section class="navigation flex justify-between items-center align-middle p-10">
+    <section class="navigation sticky top-0 bg-gray-200 flex justify-between items-center align-middle p-7 px-10">
         <div class="">
             <h1 class="text-2xl font-semibold uppercase font-Poppins">Gen-Z Investors</h1>
         </div>
         <div class="categories">
             <ul class="flex">
+                <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer"><span
+                        class="text-blue-250">All</span></li>
                 <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Design</li>
                 <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Film</li>
                 <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Advertising</li>
@@ -42,23 +45,186 @@
                 <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Gaming</li>
             </ul>
         </div>
-    
-    
+
+
         <div>
             <i class="fa-solid fa-magnifying-glass mx-4 cursor-pointer"></i>
-            <a href="/login.html"><button class="mx-4 px-6 py-2.5 rounded-lg text-white border-2 border-transparent hover:border-blue-250 hover:bg-transparent hover:text-blue-250 bg-blue-250 ease duration-300">Login</button></a>
+            <a href="/login.html"><button
+                    class="mx-4 px-6 py-2.5 rounded-lg text-white border-2 border-transparent hover:border-blue-250 hover:bg-transparent hover:text-blue-250 bg-blue-250 ease duration-300">Login</button></a>
         </div>
     </section>
 
-    
+
     <hr>
 
-    <section class="head my-10">
-        <div class="text-center">
-            <h3 class="font-bold my-4">Help and support the creative community</h3>
+    <section class="head my-10 pt-5 pb-28">
+        <div class="flex">
+            <h1 class="text-left text-3xl mx-28 mb-10">Latest Post</h1>
+            <!-- <h3 class="font-bold my-4">Help and support the creative community</h3>
             <h1 class="font-bold my-4 text-6xl">We are Gen-Z Investors</h1>
-            <p class="mx-auto my-5 w-8/12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-            <button class="px-6 py-2.5 rounded-lg text-white border-2 border-transparent hover:border-blue-250 hover:bg-transparent hover:text-blue-250 bg-blue-250 ease duration-300">Read Blogs</button>
+            <p class="mx-auto my-5 w-8/12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p> -->
+
+            <!-- <button class="px-6 py-2.5 rounded-lg text-white border-2 border-transparent hover:border-blue-250 hover:bg-transparent hover:text-blue-250 bg-blue-250 ease duration-300">Read Blogs</button> -->
+        </div>
+        <div class="latest">
+            <div class="blog-post flex justify-center align-middle items-center">
+                <img src="/assets/hr.jpg" class="blog-img w-7/12" alt="Blog Image">
+                <div class="text-overlay text-left w-5/12 ml-8">
+                    <h6><span class="text-blue-250">Technology</span> - July 3, 2024</h6>
+                    <h2 class="blog-title font-bold text-4xl my-4">The impact of technology on a workplace: How
+                        technology is changing</h2>
+                    <p class="blog-subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad dolor nisi
+                        fuga omnis, aut quia quas amet reprehenderit consequatur laboriosam totam, eum eos ut minus.
+                        Dolore eveniet harum sit rem.</p>
+                    <div class="profile flex items-center">
+                        <img src="/assets/profile.jpg" class="profile-pic rounded-full" alt="">
+                        <div class="profile-info mx-5 text-sm">
+                            <h6 class="font-bold">Flying High</h6>
+                            <h6>CEO, GenZ Blog</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="all-posts">
+        <h1 class="text-left text-3xl mx-28 mb-10">All Posts</h1>
+        <div class="posts">
+            <div
+                class="all-blog-post grid md:flex-row px-28 items-center align-middle justify-center content-center justify-items-center">
+
+                <div class="">
+
+                    <img src="/assets/hr.jpg" class="blog-img" alt="Blog Image">
+                    <div class="text-overlay text-left w-full">
+                        <h6 class="mt-6"><span class="text-blue-250">Technology</span> - July 3, 2024</h6>
+                        <h2 class="blog-title font-bold text-xl">The impact of technology on a workplace</h2>
+                        <p class="blog-subtitle mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Dignissimos similique totam atque, voluptatum eius aut.</p>
+                        <div class="profile flex items-center">
+                            <img src="/assets/profile.jpg" class="profile-pic rounded-full" alt="">
+                            <div class="profile-info mx-5 text-sm">
+                                <h6 class="font-bold">Flying High</h6>
+                                <h6>CEO, GenZ Blog</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="">
+
+                    <img src="/assets/hr.jpg" class="blog-img" alt="Blog Image">
+                    <div class="text-overlay text-left w-full">
+                        <h6 class="mt-6"><span class="text-blue-250">Technology</span> - July 3, 2024</h6>
+                        <h2 class="blog-title font-bold text-xl">The impact of technology on a workplace</h2>
+                        <p class="blog-subtitle mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Dignissimos similique totam atque, voluptatum eius aut.</p>
+                        <div class="profile flex items-center">
+                            <img src="/assets/profile.jpg" class="profile-pic rounded-full" alt="">
+                            <div class="profile-info mx-5 text-sm">
+                                <h6 class="font-bold">Flying High</h6>
+                                <h6>CEO, GenZ Blog</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="">
+
+                    <img src="/assets/hr.jpg" class="blog-img" alt="Blog Image">
+                    <div class="text-overlay text-left w-full">
+                        <h6 class="mt-6"><span class="text-blue-250">Technology</span> - July 3, 2024</h6>
+                        <h2 class="blog-title font-bold text-xl">The impact of technology on a workplace</h2>
+                        <p class="blog-subtitle mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Dignissimos similique totam atque, voluptatum eius aut.</p>
+                        <div class="profile flex items-center">
+                            <img src="/assets/profile.jpg" class="profile-pic rounded-full" alt="">
+                            <div class="profile-info mx-5 text-sm">
+                                <h6 class="font-bold">Flying High</h6>
+                                <h6>CEO, GenZ Blog</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="">
+
+                    <img src="/assets/hr.jpg" class="blog-img" alt="Blog Image">
+                    <div class="text-overlay text-left w-full">
+                        <h6 class="mt-6"><span class="text-blue-250">Technology</span> - July 3, 2024</h6>
+                        <h2 class="blog-title font-bold text-xl">The impact of technology on a workplace</h2>
+                        <p class="blog-subtitle mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Dignissimos similique totam atque, voluptatum eius aut.</p>
+                        <div class="profile flex items-center">
+                            <img src="/assets/profile.jpg" class="profile-pic rounded-full" alt="">
+                            <div class="profile-info mx-5 text-sm">
+                                <h6 class="font-bold">Flying High</h6>
+                                <h6>CEO, GenZ Blog</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="">
+
+                    <img src="/assets/hr.jpg" class="blog-img" alt="Blog Image">
+                    <div class="text-overlay text-left w-full">
+                        <h6 class="mt-6"><span class="text-blue-250">Technology</span> - July 3, 2024</h6>
+                        <h2 class="blog-title font-bold text-xl">The impact of technology on a workplace</h2>
+                        <p class="blog-subtitle mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Dignissimos similique totam atque, voluptatum eius aut.</p>
+                        <div class="profile flex items-center">
+                            <img src="/assets/profile.jpg" class="profile-pic rounded-full" alt="">
+                            <div class="profile-info mx-5 text-sm">
+                                <h6 class="font-bold">Flying High</h6>
+                                <h6>CEO, GenZ Blog</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-200">
+        <div class="foot one flex p-10 justify-between">
+            <div class="cat">
+                <ul class="flex">
+                    <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer"><span
+                            class="text-blue-250">All</span></li>
+                    <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Design</li>
+                    <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Film</li>
+                    <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Advertising</li>
+                    <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Digital</li>
+                    <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Entertainment</li>
+                    <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Gaming</li>
+                </ul>
+            </div>
+            <div class="socials">
+                <i class="fa-brands fa-x-twitter mx-4"></i>
+                <i class="fa-brands fa-linkedin-in mx-4"></i>
+                <i class="fa-brands fa-instagram mx-4"></i>
+                <i class="fa-brands fa-facebook-f mx-4"></i>
+                <i class="fa-brands fa-youtube mx-4"></i>
+            </div>
+        </div>
+
+        <div class="foot two p-10 text-center">
+            <h1 class="font-bold">Sign up to receive emails updates, fresh news and more!</h1>
+            <div class="email my-4">
+                <input type="email" placeholder="Enter your email" class="w-96 border-gray-250 py-2">
+                <button class="mx-4 px-6 py-2 rounded-lg text-white border-2 border-transparent hover:border-blue-250 hover:bg-transparent hover:text-blue-250 bg-blue-250 ease duration-300">Subscribe</button>
+            </div>
+        </div>
+
+        <div class="foot three p-10 text-center">
+            <p>Copyright © 2024 GenZ Blog | Powered by GenZ Blog</p>
         </div>
     </section>
 </body>
