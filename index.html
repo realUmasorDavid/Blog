@@ -35,23 +35,38 @@
         </div>
         <div class="categories">
             <ul class="flex">
-                <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer"><span
-                        class="text-blue-250">All</span></li>
-                <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Design</li>
-                <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Film</li>
-                <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Advertising</li>
-                <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Digital</li>
-                <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Entertainment</li>
-                <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Gaming</li>
+                <li data-id="All" class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">All</li>
+                <li data-id="Design" class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Design</li>
+                <li data-id="Film" class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Film</li>
+                <li data-id="Tech" class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Tech</li>
+                <li data-id="Health" class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Health</li>
+                <li data-id="Entertainment" class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Entertainment</li>
+                <li data-id="Gaming" class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Gaming</li>
             </ul>
         </div>
 
 
         <div>
-            <i class="fa-solid fa-magnifying-glass mx-4 cursor-pointer"></i>
-            <a href="/login.html"><button
-                    class="mx-4 px-6 py-2.5 rounded-lg text-white border-2 border-transparent hover:border-blue-250 hover:bg-transparent hover:text-blue-250 bg-blue-250 ease duration-300">Login</button></a>
-        </div>
+            <div class="flex md:order-2">
+                <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search"
+                    aria-expanded="false"
+                    class="md:hidden text-gray-500 hover:bg-white focus:outline-none focus:ring-4 focus:ring-gray-200 rounded-lg text-sm p-2.5 mr-1">
+                    <i class="fa-solid fa-magnifying-glass cursor-pointer"></i>
+                    <span class="sr-only">Search</span>
+                </button>
+                <div class="relative hidden md:block">
+                    <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+
+                        <i class="fa-solid fa-magnifying-glass cursor-pointer"></i>
+                        <span class="sr-only">Search icon</span>
+                    </div>
+                    <input type="text" id="search-navbar"
+                        class="block w-full p-2 pl-10 text-sm text-gray-900 border border-white rounded-lg bg-bg-white focus:ring-blue-500 focus:border-blue-500"
+                        placeholder="Search...">
+                </div>
+                <a href="/login.html"><button
+                        class="mx-4 px-6 py-1.5 rounded-lg text-white border-2 border-transparent hover:border-blue-250 hover:bg-transparent hover:text-blue-250 bg-blue-250 ease duration-300">Login</button></a>
+            </div>
     </section>
 
 
@@ -89,15 +104,16 @@
     </section>
     <section class="all-posts">
         <h1 class="text-left text-3xl mx-28 mb-10">All Posts</h1>
+
         <div class="posts">
             <div
-                class="all-blog-post grid md:flex-row px-28 items-center align-middle justify-center content-center justify-items-center">
+                class="all_blog_post grid md:flex-row px-28 items-center align-middle justify-center content-center justify-items-center">
 
                 <div class="">
 
-                    <img src="/assets/hr.jpg" class="blog-img" alt="Blog Image">
-                    <div class="text-overlay text-left w-full">
-                        <h6 class="mt-6"><span class="text-blue-250">Technology</span> - July 3, 2024</h6>
+                    <img src="/assets/hr.jpg" class="blog-img w-full" alt="Blog Image">
+                    <div class="text-overlay text-left">
+                        <h6 class="cat-date mt-6"><span class="text-blue-250">Technology</span> - July 3, 2024</h6>
                         <h2 class="blog-title font-bold text-xl">The impact of technology on a workplace</h2>
                         <p class="blog-subtitle mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Dignissimos similique totam atque, voluptatum eius aut.</p>
@@ -200,8 +216,8 @@
                             class="text-blue-250">All</span></li>
                     <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Design</li>
                     <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Film</li>
-                    <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Advertising</li>
-                    <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Digital</li>
+                    <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Health</li>
+                    <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Tech</li>
                     <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Entertainment</li>
                     <li class="mx-4 hover:text-blue-250 ease duration-800 cursor-pointer">Gaming</li>
                 </ul>
@@ -219,7 +235,8 @@
             <h1 class="font-bold">Sign up to receive emails updates, fresh news and more!</h1>
             <div class="email my-4">
                 <input type="email" placeholder="Enter your email" class="w-96 border-gray-250 py-2">
-                <button class="mx-4 px-6 py-2 rounded-lg text-white border-2 border-transparent hover:border-blue-250 hover:bg-transparent hover:text-blue-250 bg-blue-250 ease duration-300">Subscribe</button>
+                <button
+                    class="mx-4 px-6 py-2 rounded-lg text-white border-2 border-transparent hover:border-blue-250 hover:bg-transparent hover:text-blue-250 bg-blue-250 ease duration-300">Subscribe</button>
             </div>
         </div>
 
@@ -228,5 +245,6 @@
         </div>
     </section>
 </body>
+<script src="/blogData/main.js"></script>
 
 </html>

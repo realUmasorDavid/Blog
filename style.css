@@ -9,14 +9,13 @@
     height: 350px;
 }
 
-.profile img, .all-blog-post .profile img {
+.profile img, .all_blog_post .profile img {
     height: 50px;
     width: 50px;
     margin: 20px 0;
 }
 
-.all-blog-post img {
-    width: 357px;
+.all_blog_post img {
     height: 250px;
 }
 
@@ -27,10 +26,10 @@
 }
 
 @media (min-width: 612px) {
-    .all-blog-post {
+    .all_blog_post {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 30px;
-        grid-row-gap: 10px;
+        /* grid-row-gap: 10px; */
     }
 }
