@@ -33,3 +33,9 @@
         /* grid-row-gap: 10px; */
     }
 }
+
+@media (max-width: 500px) {
+    .blog-post img {
+        height: 150px;
+    }
+}

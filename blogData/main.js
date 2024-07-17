@@ -18,6 +18,16 @@ blogData = [
         "authorPic": "../assets/profile.jpg",
         "published_date": "October 4, 2023",
         "content": "Welcome back to Found, where we get the stories behind the startups. This week, our old friend Darrell Etherington joins Becca Szkutak to talk with Professor Esther Rodriguez-Villegas from Acurable..."
+    },
+    {
+        "id": 3,
+        "title": "PS5 with EAFC 24 giveaway and $5000 for winner of tournament",
+        "image": "../assets/hr.jpg",
+        "category": "Gaming",
+        "author": "Olusegun Obasanjo",
+        "authorPic": "../assets/profile.jpg",
+        "published_date": "December 2, 2023",
+        "content": "Welcome back to Found, where we get the stories behind the startups. This week, our old friend Darrell Etherington joins Becca Szkutak to talk with Professor Esther Rodriguez-Villegas from Acurable..."
     }
 ];
 
