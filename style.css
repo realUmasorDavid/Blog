@@ -25,6 +25,27 @@
     border-color: #dee0e1;
 }
 
+.boss {
+    background-color: rgb(249, 249, 249);
+    /* justify-content: center; */
+    
+}
+.leo {
+    background-color: rgb(247, 247, 250);
+}
+.hoe {
+    background-color: white;
+}
+.bull{
+    background-color: white;;
+}
+
+/* .foot {
+    background-color: #f7f9fb;
+    border-top: 1px solid;
+    border-color: #dee0e1;
+} */
+
 @media (min-width: 612px) {
     .all_blog_post {
         display: grid;

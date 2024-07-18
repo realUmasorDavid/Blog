@@ -6,7 +6,7 @@ blogData = [
         "category": "Tech",
         "author": "Darrell Etherington",
         "authorPic": "../assets/profile.jpg",
-        "published_date": "July 3, 2023",
+        "published_date": "July 3, 2024",
         "content": "Welcome back to Found, where we get the stories behind the startups. This week, our old friend Darrell Etherington joins Becca Szkutak to talk with Professor Esther Rodriguez-Villegas from Acurable..."
     },
     {
